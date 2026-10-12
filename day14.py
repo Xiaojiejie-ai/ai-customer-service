@@ -7,7 +7,7 @@ st.set_page_config(page_title="企业智能客服", page_icon="💬", layout="wi
 
 # 1. 配置 API 客户端（顶格写）
 client = OpenAI(
-    aipa_key=st.secrets["DEEPSEEK_API_KEY"],
+    api_key=st.secrets["DEEPSEEK_API_KEY"],
     base_url="https://api.deepseek.com"
 )
 
